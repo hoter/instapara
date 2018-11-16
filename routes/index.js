@@ -10,6 +10,10 @@ const Router = StackNavigator({
   photo: {
     screen: Photo
   }
+},
+{
+  mode: 'modal',
+  headerMode: 'none',
 });
 
 export default Router;
